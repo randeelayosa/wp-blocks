@@ -1,0 +1,88 @@
+/* Services Page */
+.cool-container{
+  display: flex;
+  align-items: center;
+  padding: 35px 0;
+  background-color: gray;
+}
+.cool-container .cool-text{
+  background: #f1f1f1;
+  padding: 45px;
+  right: -5%;
+  position: relative;
+  box-shadow: 30px 30px 35px -12px rgba(0,0,0,0.2);
+  width: 50%;
+  z-index: 10;
+}
+.cool-container .cool-text p{
+  margin: 0;
+}
+.cool-container .cool-image{
+  width: 60%;
+}
+.cool-container .cool-image img{
+  border-radius: 20% 5% 20% 0;
+}
+
+
+/* Styling Page */
+.option-container{
+  margin: 0;
+  padding: 0;
+  background-color: #4c4c4c;
+}
+.option-group{
+  border: 1px solid white;
+  padding-top: 10%;
+}
+.option-header{
+  color: black;
+  position: absolute;
+  right: 5%;
+}
+.option-text{
+  color: black;
+  margin-left: 90%;
+}
+.option-description{
+  color: white;
+  margin-left: 50%;
+}
+
+.all-options {
+  background-color: rgb(232,30,54);
+  box-sizing: border-box;
+  width: 100vw;
+  transform: rotate(30deg);
+  margin-bottom: 1%;
+  width: 1200px;
+  height: 150px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  left: -150px;
+}
+.all-options:hover {
+  width: 1400px;
+}
+
+.works-container{
+  border: 2px solid red;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.works {
+  border: 2px solid blue;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.work-images img{
+  border: 2px solid green;
+  min-width: 360px;
+  margin-bottom: 30px;
+}
